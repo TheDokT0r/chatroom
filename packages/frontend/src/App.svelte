@@ -4,6 +4,7 @@
   import Chatroom from "./pages/Chatroom.svelte";
   import { SvelteToast } from "@zerodevx/svelte-toast";
   import { connected } from "./libs/socket";
+  import "@fontsource/rubik";
 
   let isConnected = $state(false);
   connected.subscribe((value) => {
